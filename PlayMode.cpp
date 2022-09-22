@@ -439,7 +439,7 @@ void PlayMode::update(float elapsed) {
 			// Get the note that should be played right now
 			int current_index = (int)round(track.song_offset);
 			Note* current_note = nullptr;
-			if (current_index >= 0 && current_index < track.notes.size() && track.notes[current_index] != nullptr) {
+			if (current_index >= 0 && current_index < (int)track.notes.size() && track.notes[current_index] != nullptr) {
 				current_note = track.notes[current_index];
 			}
 
@@ -484,13 +484,13 @@ void PlayMode::update(float elapsed) {
 
 			// Check if the previous note was missed
 			int prev_index = (int)floor(track.song_offset - good_window);
-			if (prev_index >= 0 && prev_index < track.notes.size() && track.notes[prev_index] != nullptr) {
+			if (prev_index >= 0 && prev_index < (int)track.notes.size() && track.notes[prev_index] != nullptr) {
 				Note& prev_note = *track.notes[prev_index];
 				if (!prev_note.hit) {
 					miss(&track);
 				}
 			}
-			else if (prev_index == track.notes.size()) {
+			else if (prev_index == (int)track.notes.size()) {
 				miss(&track);
 			}
 
