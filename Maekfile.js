@@ -104,6 +104,7 @@ let copies = [
 ];
 if (maek.OS === 'windows') {
 	copies.push( maek.COPY(`${NEST_LIBS}/SDL2/dist/SDL2.dll`, `dist/SDL2.dll`) );
+	copies.push( maek.COPY(`${NEST_LIBS}/SDL2/dist/SDL2.dll`, `SDL2.dll`) );
 }
 
 //call rules on the maek object to specify tasks.
@@ -125,6 +126,7 @@ const game_names = [
 	maek.CPP('PlayMode.cpp'),
 	maek.CPP('main.cpp'),
 	maek.CPP('LitColorTextureProgram.cpp'),
+	maek.CPP('ColorTextureProgram.cpp'),
 	//maek.CPP('ColorTextureProgram.cpp'),  //not used right now, but you might want it
 	maek.CPP('Sound.cpp'),
 	maek.CPP('load_wav.cpp'),
