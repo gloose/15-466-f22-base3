@@ -6,7 +6,7 @@ Design: (TODO: In two sentences or fewer, describe what is new and interesting a
 
 Screen Shot:
 
-![Screen Shot](screenshot.png)
+![Screen Shot](dist/screenshot.png)
 
 How To Play:
 
