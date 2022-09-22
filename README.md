@@ -32,7 +32,7 @@ Shoot a beam of fire, killing the nearest enemy in the chosen direction. Unlike 
 Teleport in a straight line in the chosen direction. The teleport distance increases the more you play. Note that, as with any song, you are free to skip a break if you would prefer to wait for a later break with a longer teleport; this may be necessary if you are surrounded by enemies at a close distance.
 
 ### Song of Water
-Create a pool of water in the chosen direction that halves the speed of enemies inside it. The pool grows larger and lasts longer the more you play.
+Create a pool of water in the chosen direction that halves the speed of enemies inside it. The pool grows larger and lasts longer the more you play. This song does no damage, but is good for buying time if you find yourself with a moment to spare, especially at the start of the game.
 
 ### Song of Earth
 Lift a chunk of earth in a cone in the chosen direction, tossing all enemies into the air and killing them on impact. The cone grows larger the more you play. Compared to the Song of Fire, this song is relatively long and complex, with fewer breaks, but is good for clearing large groups of enemies at short to medium range.
