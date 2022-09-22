@@ -20,6 +20,7 @@ How To Play:
   * If you play the wrong note, or play too far off the beat, the song ends.
 * Each song has several "breaks" where no note is played on the beat. You may play any note on the beat during a break to activate the special power of the song in the direction of that note.
   * The song continues after using a power, and each subsequent break until the end of the song enables a stronger version of the power.
+* The game ends when any enemy touches you. Your only goal is to survive as long as you can.
   
 ## Songs
 From top left to bottom right:
