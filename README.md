@@ -10,9 +10,31 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+## Controls
+* WASD: Play notes
+* R: Restart
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+## Instructions
+* Play the first note of any of the four songs to start playing that song.
+* Tap the corresponding WASD directional keys to play each note when it reaches the white note outlines at the top of the song track (or, if you're playing with audio, when you hear the beat sound).
+  * If you play the wrong note, or play too far off the beat, the song ends.
+* Each song has several "breaks" where no note is played on the beat. You may play any note on the beat during a break to activate the special power of the song in the direction of that note.
+  * The song continues after using a power, and each subsequent break until the end of the song enables a stronger version of the power.
+  
+## Songs
+From top left to bottom right:
+
+### Song of Fire
+Shoot a beam of fire, killing the nearest enemy in the chosen direction. Unlike other songs, the Song of Fire does not grow stronger when you play more of it. However, the end of the song features four breaks in rapid succession, allowing you to kill many enemies very quickly if you make it that far.
+
+### Song of Wind
+Teleport in a straight line in the chosen direction. The teleport distance increases the more you play. Note that, as with any song, you are free to skip a break if you would prefer to wait for a later break with a longer teleport; this may be necessary if you are surrounded by enemies at a close distance.
+
+### Song of Water
+Create a pool of water in the chosen direction that halves the speed of enemies inside it. The pool grows larger and lasts longer the more you play.
+
+### Song of Earth
+Lift a chunk of earth in a cone in the chosen direction, tossing all enemies into the air and killing them on impact. The cone grows larger the more you play. Compared to the Song of Fire, this song is relatively long and complex, with fewer breaks, but is good for clearing large groups of enemies at short to medium range.
 
 This game was built with [NEST](NEST.md).
 
