@@ -20,7 +20,7 @@ How To Play:
   * If you play the wrong note, or play too far off the beat, the song ends.
 * Each song has several "breaks" where no note is played on the beat. You may play any note on the beat during a break to activate the special power of the song in the direction of that note.
   * The song continues after using a power, and each subsequent break until the end of the song enables a stronger version of the power.
-* Enemies appear at the edge of the island at a constant rate and slowly advance towards you. The game ends when any enemy touches you.
+* Enemies appear at the edge of the island and slowly advance towards you. The game ends when any enemy touches you.
   
 ## Songs
 From top left to bottom right:
