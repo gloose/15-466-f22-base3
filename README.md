@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Heaven's Harp
 
-Author: (TODO: your name)
+Author: Greg Loose
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Heaven's Harp is a rhythm / action game where you control a magical harp that has fallen from the sky onto a deserted island, attracting hordes of treasure hunters seeking to lay claim to your power. Play music to the beat, choosing from four songs with unique effects to protect yourself from the invaders and survive as long as you can.
 
 Screen Shot:
 
